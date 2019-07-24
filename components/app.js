@@ -2,8 +2,8 @@ function App() {
     return (
         <div>
             <Navbar />
-            <Footer />
             <Body />
+            <Footer />
         </div>
     );
 }
