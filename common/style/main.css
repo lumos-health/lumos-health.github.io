@@ -1,0 +1,32 @@
+html {
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+input,
+legend {
+    font-family: -apple-system,
+        BlinkMacSystemFont,
+        'avenir next',
+        avenir,
+        'helvetica neue',
+        helvetica,
+        ubuntu,
+        roboto,
+        noto,
+        'segoe ui',
+        arial,
+        sans-serif;
+}
+
+.navbar {
+    z-index: 10;
+    background: var(--background-col);
+}
