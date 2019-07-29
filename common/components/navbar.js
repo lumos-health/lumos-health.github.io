@@ -36,7 +36,9 @@ function Navbar(props) {
     return (
         <nav class="navbar dt w-100 border-box pa3 ph5-ns bb b--black-10 fixed top-0 ">
             <a class="dtc v-mid mid-gray link dim" href="../" title="Home">
-                <img src="https://www.childhood.org.au/app/uploads/2017/07/ACF-logo-placeholder.png" class="dib h2" alt="Lumos Health Inc." />
+                <span class="b bg-black-90 lh-copy white pa1">
+                    Lumos Health Inc.
+                </span>
             </a>
             <div class="dtc v-mid w-75 tr">
                 <a class={availableLinks.root[0]} style={availableLinks.root[1]} href="../" title="About">About Us</a>

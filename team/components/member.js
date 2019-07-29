@@ -1,4 +1,7 @@
 function Member(props) {
+    if (props.photo_url == "") {
+        props.photo_url = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAA1BMVEX///+nxBvIAAAASElEQVR4nO3BgQAAAADDoPlTX+AIVQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwDcaiAAFXD1ujAAAAAElFTkSuQmCC";
+    }
     return (
         <article class="member center pa3 pa4-ns mv3 ba b--black-05 br3">
             <div class="tc">
