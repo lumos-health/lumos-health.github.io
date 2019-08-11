@@ -18,10 +18,6 @@ function Mission(props) {
             <SplitComponents 
                 left={missionDiv}
             />
-<<<<<<< HEAD
-=======
-            
->>>>>>> update design of front page (#6)
         </div>
         
     );
