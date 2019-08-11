@@ -32,4 +32,8 @@ function Description(props) {
 <p class="ph5 f4 f4-m f3-l fw4 lh-copy">
                     Our product, Lumos glasses, is a pair of light therapy glasses that aims to solve these problems with innovative technology. Through creative design, we have made Lumos glasses to be the most effective, fashionable, and affordable light therapy glasses on the market.
                 </p>
+<<<<<<< HEAD
 */
+=======
+*/
+>>>>>>> update design of front page (#6)
