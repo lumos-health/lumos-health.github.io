@@ -1,5 +1,4 @@
 function Vision(props) {
-
     var visionDiv = (
         <div class="mw5 mw6-m mw8-l center flex flex-column tr">
             <h1
