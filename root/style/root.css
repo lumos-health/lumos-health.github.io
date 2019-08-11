@@ -1,4 +1,4 @@
-.subscribe-screen {
+.subscribe-screen, .vision {
     background-color: var(--col-one)
 }
 
@@ -8,8 +8,4 @@
     left:-1px; 
     width:1px; 
     height:1px; 
-}
-
-.description {
-    background-color: var(--col-five)
 }
