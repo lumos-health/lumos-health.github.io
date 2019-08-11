@@ -1,5 +1,4 @@
 function Mission(props) {
-
     var missionDiv = (
         <div class="mw5 mw6-m mw8-l center flex flex-column " >
             <h1
@@ -19,7 +18,6 @@ function Mission(props) {
             <SplitComponents 
                 left={missionDiv}
             />
-            
         </div>
         
     );

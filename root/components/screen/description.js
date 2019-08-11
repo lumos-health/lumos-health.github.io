@@ -1,5 +1,4 @@
 function Description(props) {
-    
     var descDiv = (
         <div class="flex flex-wrap items-center h-100 pt5 pt3-ns">
             <div>
