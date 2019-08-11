@@ -11,7 +11,6 @@ function Description(props) {
                     However, many people are unaware of light therapy, and existing products on the market do not offer a portable and discreet method of treatment.
                 </p>
             </div>
-            
         </div>
     );
 
@@ -27,7 +26,15 @@ function Description(props) {
     return (
         <div
             class="description mt-5 center contain container pa3 ph5-ns flex flex-wrap justify-center pt7">
+<<<<<<< HEAD
  
+=======
+            <h1
+                class="pt7 f2 f1-l normal pv3"
+            >
+                Our Product
+            </h1>   
+>>>>>>> 583df3387f7a6ad7812205ac3784bdf5df14d897
             <SplitComponents
                 left={descDiv}
                 right={imageDiv}
