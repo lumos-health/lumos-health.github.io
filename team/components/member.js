@@ -3,13 +3,28 @@ function Member(props) {
         props.photo_url = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAA1BMVEX///+nxBvIAAAASElEQVR4nO3BgQAAAADDoPlTX+AIVQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwDcaiAAFXD1ujAAAAAElFTkSuQmCC";
     }
 
+    var description = props.description.replace(/:/g, "\n").replace(/;/g, "\n\u2014\n");
+
+    var descriptionStyle = {
+        height: "11rem"
+    };
+
     return (
         <article 
         class="member center mw5 ba b--black-05 br3">
-            <div class="tc ph3 pv4 flex flex-wrap justify-center">
+            <div class="tc ph3 pv4 flex flex-column items-center">
                 <img src={props.photo_url} class="br-100 h4 w4 dib ba b--black-05 pa2 img"/>
-                <h1 class="f3 mb2 w-100">{props.name}</h1>
-                <h2 class="f5 fw4 gray mt0 normal w-100">{props.description}</h2>
+                <h1 class="f3 mb2 w-100 ttu tracked pb2">{props.name}</h1>
+                <h2 
+                class="f5 fw4 gray mt0 normal w-90 pb2"
+                style={descriptionStyle}>{description.split('\n').map(function (item, key) {
+                    return (
+                        <span key={key}>
+                            {item}
+                            <br />
+                        </span>
+                    )
+                })}</h2>
                 <a
                     class="link dim dib black-70"
                     href={props.linked_in_url}>

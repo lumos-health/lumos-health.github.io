@@ -37,8 +37,9 @@ function Navbar(props) {
 
     return (
         <nav class="navbar dt w-100 border-box ph4 pv2 ph2-ns ph5-ns bb b--black-10 fixed top-0 ">
-            <a class="w2 dtc v-mid mid-gray link dim flex flex-wrap" href="../" title="Home">
-                <img class="w2" src={logoImgLink}/>
+            <a class="mw3 mw4-l dtc v-mid mid-gray link dim flex flex-wrap items-end justify-center" href="../" title="Home">
+                <img class="w2 pr2-l" src={logoImgLink}/>
+                <img class="h1 h2-l contain" src={logoTextLink}/>
             </a>
             <div class="pv3 dtc v-mid w-75 tr">
                 <a class={availableLinks.root[0]} style={availableLinks.root[1]} href="../" title="About">About Us</a>

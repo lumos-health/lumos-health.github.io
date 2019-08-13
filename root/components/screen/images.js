@@ -26,7 +26,7 @@ function ImageCol(props) {
                 class="black-90 f4 f4-m f3-l fw4 lh-copy"
                 style={textStyle}
             >
-                Using innovative design and state of the art technology, our product, Lumos glasses, aims to solve these problems by being the most fashionable, and competitive light therapy glasses on the market.
+                Using innovative design and state of the art technology, our product, Lumos glasses, aims to solve these problems by being the most fashionable and competitive light therapy glasses on the market.
             </p>
             <div class="flex flex-column pv5">
                 <img
