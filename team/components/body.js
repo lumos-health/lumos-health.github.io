@@ -1,13 +1,13 @@
 function Body(props) {
     return (
         <header class="body">
-            <div class="flex flex-wrap justify-center items-center pt6">
+            <div class="flex flex-wrap  pt6">
                 {teamMembers.map(member => (
-                        <div class="w-80 w-40-m w-30-l ma3 ma5-l">
+                        <div class="w-100 w-50-m w-third-l mv5">
                         <Member
                             name={member.name}
-                            title={member.title}
                             photo_url={member.photo_url}
+                            linked_in_url={member.linked_in_url}
                         />
                         </div>
                     )

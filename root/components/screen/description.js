@@ -1,35 +1,40 @@
 function Description(props) {
+    var descriptionStyle = {
+        backgroundImage: "linear-gradient(ghostwhite, white)"
+    };
+
+    var shadowStrength = 5;
+    var shadowStr = "0 0 5px white";
+
+    for (var i = 0; i < shadowStrength; i++) {
+        shadowStr += ", 0 0 1px white";
+    }
+
+    var textStyle = {
+        textShadow: shadowStr
+    };
+
     var descDiv = (
-        <div class="flex flex-wrap items-center h-100 pt5 pt3-ns">
+        <div class="flex flex-wrap items-center h-100 pt5 pt3-ns mw5 mw6-ns tc">
             <div>
-                <p class="black-50 f4 f4-m f3-l fw4 lh-copy">
+                <p 
+                    class="f4 f4-m f3-l fw4 lh-copy"
+                    style={textStyle}>
                     Using light that mimics the brightness of the natural outdoors, light therapy can help treat the winter blues as well as improve sleep quality for people with sleep schedule problems.
                 </p>
 
-                <p class="black-70 pt4-m pt6-l f4 f4-m f3-l fw4 lh-copy">
+                <p class="pt4-m pt6-l f4 f4-m f3-l fw4 lh-copy">
                     However, many people are unaware of light therapy, and existing products on the market do not offer a portable and discreet method of treatment.
                 </p>
             </div>
         </div>
     );
 
-    var imageDiv = (
-        <div class="w-100 pt6-ns flex flex-wrap justify-center">
-            {competitors.map(competitor => (
-                <img src={competitor} class="mw3 mw4-m mw5-l ph3 ph3 pb3 pv4-m pv3-l">
-                </img>
-            ))}
-        </div>
-    );
-
     return (
         <div
+            style={descriptionStyle}
             class="vh-100 center contain container pa3 ph5-ns flex flex-wrap justify-center">
-            <SplitComponents
-                left={descDiv}
-                right={imageDiv}
-            />
-
+                {descDiv}
         </div>
     );
 }

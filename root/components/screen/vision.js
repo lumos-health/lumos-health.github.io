@@ -2,26 +2,35 @@ function Vision(props) {
     var divStyle = {
         zIndex: "-2"
     };
+    
     var backgroundStyle = {
-        background: "url(https://drive.google.com/uc?export=view&id=1hNbxHoFh5eOTT5IUYNTkMmNH51P26-61) no-repeat",
+        background: "url(https://drive.google.com/uc?export=view&id=1U7iNM4JUWZ00lObFd2_gzt5Kk6wLQQ4u) no-repeat",
         backgroundPosition: "center center",
-        filter: "blur(7px) opacity(40%)",
+        filter: "blur(5px) opacity(20%) ",
+        transform: "scaleX(-1)",
         zIndex: "0"
     };
 
     var textStyle = {
         zIndex: "1"
     };
+
+    var fontStyle = {
+        fontFamily: "\'Montserrat\', sans-serif",
+        fontWeight: "700"
+    };
   
     var visionDiv = (
         <div class="mw5 mw6-m mw8-l center flex flex-column tr">
             <h1
-                class="pt7 f2 f1-l normal white-80 b"
+                class="pt7 f2 f1-l normal white ttu tracked"
+                style={fontStyle}
             >
                 Lumos Health Inc.
             </h1>
-            <h2 class="f4 f4-m f3-l fw4 lh-copy black-80">
-                To help people live healthier lives through technology and design
+            <h2 
+            class="f4 f4-m f3-l fw4 lh-copy white">
+                To help people live happier, healthier lives through technology and design
             </h2>
         </div>
     );
