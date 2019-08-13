@@ -10,7 +10,7 @@ function ImageCol(props) {
     };
 
     var textStyle = {
-        textAlign: "left",
+        textAlign: "center",
         marginLeft: "20%",
         marginRight: "20%"
     };
