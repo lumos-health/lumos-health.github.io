@@ -3,28 +3,17 @@ function Description(props) {
         backgroundImage: "linear-gradient(ghostwhite, white)"
     };
 
-    var shadowStrength = 5;
-    var shadowStr = "0 0 5px white";
-
-    for (var i = 0; i < shadowStrength; i++) {
-        shadowStr += ", 0 0 1px white";
-    }
-
-    var textStyle = {
-        textShadow: shadowStr
-    };
 
     var descDiv = (
         <div class="flex flex-wrap items-center h-100 pt5 pt3-ns mw5 mw6-ns tc">
             <div>
                 <p 
-                    class="f4 f4-m f3-l fw4 lh-copy"
-                    style={textStyle}>
-                    Using light that mimics the brightness of the natural outdoors, light therapy can help treat the winter blues as well as improve sleep quality for people with sleep schedule problems.
+                    class="f4 f4-m f3-l fw4 lh-copy">
+                    Using light that mimics the brightness of the natural outdoors, light therapy can <b>help treat the winter blues</b> as well as <b>improve sleep quality for people with sleep schedule problems.</b>
                 </p>
 
                 <p class="pt4-m pt6-l f4 f4-m f3-l fw4 lh-copy">
-                    However, many people are unaware of light therapy, and existing products on the market do not offer a portable and discreet method of treatment.
+                    However, many people are unaware of light therapy, and existing products on the market do not offer a <b>portable</b> and <b>discreet</b> method of treatment. 
                 </p>
             </div>
         </div>

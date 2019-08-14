@@ -1,35 +1,42 @@
-https://drive.google.com/file/d/1120EHGzcbddBlBEHj4MyjKSCiTMFLKr2/view?usp=sharing
+// Note:
+// When creating a description, be mindful of the fact that every colon
+// turns into a line break, and every semi colon truns into a double line
+// break.
 
 var teamMembers = [
     {
         name: "James Ro",
         title: "",
         photo_url: "https://drive.google.com/uc?export=view&id=1GFsVMeu91fbWiqndIDA9ifOqPgIEOmrB",
-        linked_in_url: "https://www.linkedin.com/in/rojames/"
+        linked_in_url: "https://www.linkedin.com/in/rojames/",
+        description: "Electronics and Physics:University of Waterloo;Former electrical lead at Waterloop;Former developer at Health Canada"
     },
     {
         name: "Jason Pan",
         title: "",
         photo_url: "https://drive.google.com/uc?export=view&id=19oadxXrUqwwj7IGCpKUrr1QacdQ4JWF_",
-        linked_in_url: "https://www.linkedin.com/in/jczpan/"
+        linked_in_url: "https://www.linkedin.com/in/jczpan/",
+        description: "Environment and Business:University of Waterloo;Former Product Manager at Microsoft;Former admin director at Waterloop"
     },
     {
         name: "Lingfeng Tao",
         title: "",
         photo_url: "https://drive.google.com/uc?export=view&id=1120EHGzcbddBlBEHj4MyjKSCiTMFLKr2",
-        linked_in_url: "https://www.linkedin.com/in/lingfengtao/"
+        linked_in_url: "https://www.linkedin.com/in/lingfengtao/",
+        description: "Philosophy and Industrial Design:University of Notre Dame;Market Analyst at IDEA Center"
     },
     {
         name: "Lucas Tang",
         title: "",
         photo_url: "https://drive.google.com/uc?export=view&id=1F5-5lgBDb2ADmyxP0uwBm8DF5t-Bp_TG",
         linked_in_url: "https://www.linkedin.com/in/lucas-tang/",
-        description: "3B Mechanical Engineering;Project Manager at Xiaomi;Former iPhone designer at Apple"
+        description: "Mechanical Engineering:University of Waterloo;Project Manager at Xiaomi;Former iPhone designer at Apple"
     },
     {
         name: "Victor Qian",
         title: "",
         photo_url: "https://drive.google.com/uc?export=view&id=1SE_IsYdOAfJudfyVb-02akW79hUjb5-m",
-        linked_in_url: "https://www.linkedin.com/in/victorqian/"
+        linked_in_url: "https://www.linkedin.com/in/victorqian/",
+        description: "Masters in Mechanical Engineering:University of Waterloo;Co-founder of Waterloop;Former Engineer at Health Canada"
     },
 ];

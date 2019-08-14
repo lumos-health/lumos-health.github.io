@@ -6,7 +6,7 @@ function Vision(props) {
     var backgroundStyle = {
         background: "url(https://drive.google.com/uc?export=view&id=1U7iNM4JUWZ00lObFd2_gzt5Kk6wLQQ4u) no-repeat",
         backgroundPosition: "center center",
-        filter: "blur(5px) opacity(20%) ",
+        filter: "blur(7px) opacity(20%) ",
         transform: "scaleX(-1)",
         zIndex: "0"
     };
@@ -21,17 +21,19 @@ function Vision(props) {
     };
   
     var visionDiv = (
-        <div class="mw5 mw6-m mw8-l center flex flex-column tr">
-            <h1
-                class="pt7 f2 f1-l normal white ttu tracked"
-                style={fontStyle}
-            >
-                Lumos Health Inc.
-            </h1>
-            <h2 
-            class="f4 f4-m f3-l fw4 lh-copy white">
-                To help people live happier, healthier lives through technology and design
-            </h2>
+        <div class="w-100 vh-100 flex items-center">
+            <div class="mw5 mw6-m mw8-l center flex flex-column tr">
+                <h1
+                    class="f2 f1-l normal white ttu tracked"
+                    style={fontStyle}
+                >
+                    Lumos Health Inc.
+                </h1>
+                <h2 
+                class="f4 f4-m f3-l fw4 lh-copy white">
+                    To help people live happier, healthier lives through technology and design
+                </h2>
+            </div>
         </div>
     );
 
