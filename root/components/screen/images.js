@@ -1,11 +1,11 @@
 function ImageCol(props) {
     var imageStyle = {
         display: "block",
-        maxWidth: "50%",
-        maxHeight: "50%",
+        maxWidth: "25%",
+        maxHeight: "25%",
         width: "auto",
         height: "auto",
-        borderRadius: "5%",
+        borderRadius: "20%",
         zIndex: "0"
     };
 
@@ -28,12 +28,14 @@ function ImageCol(props) {
             >
                 Using innovative design and state of the art technology, our product, Lumos glasses, aims to solve these problems by being the most fashionable and competitive light therapy glasses on the market.
             </p>
-            <div class="flex flex-column pv5">
-                <img
-                    class="center"
-                    style={imageStyle}
-                    src="common/images/lumos-glasses.jpg"
-                />
+            <div class="flex flex-row justify-center pv3">
+                {proto_image_files.map(path =>
+                    (<img
+                        class="fl w-third ph4"
+                        style={imageStyle}
+                        src={path}
+                    />)
+                )}
             </div>
         </div>
     );
