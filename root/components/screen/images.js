@@ -16,7 +16,7 @@ function ImageCol(props) {
     };
 
     return (
-        <div class="center justify-center flex flex-column contain container">
+        <div class="center justify-center flex flex-column contain container pb6">
             <h1
                 class="f2 f1-l normal center pt5"
             >
