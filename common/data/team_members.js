@@ -9,14 +9,14 @@ var teamMembers = [
         title: "",
         photo_url: "https://drive.google.com/uc?export=view&id=1GFsVMeu91fbWiqndIDA9ifOqPgIEOmrB",
         linked_in_url: "https://www.linkedin.com/in/rojames/",
-        description: "Electronics and Physics:University of Waterloo;Former electrical lead at Waterloop;Former developer at Health Canada"
+        description: "Physics and Electronics:University of Waterloo;Former Electrical Lead at Waterloop;Former Developer at Health Canada"
     },
     {
         name: "Jason Pan",
         title: "",
         photo_url: "https://drive.google.com/uc?export=view&id=19oadxXrUqwwj7IGCpKUrr1QacdQ4JWF_",
         linked_in_url: "https://www.linkedin.com/in/jczpan/",
-        description: "Environment and Business:University of Waterloo;Former Product Manager at Microsoft;Former admin director at Waterloop"
+        description: "Environment and Business:University of Waterloo;Former Product Marketing Manager at Microsoft;Former Admin Director at Waterloop"
     },
     {
         name: "Lingfeng Tao",
@@ -30,13 +30,13 @@ var teamMembers = [
         title: "",
         photo_url: "https://drive.google.com/uc?export=view&id=1F5-5lgBDb2ADmyxP0uwBm8DF5t-Bp_TG",
         linked_in_url: "https://www.linkedin.com/in/lucas-tang/",
-        description: "Mechanical Engineering:University of Waterloo;Project Manager at Xiaomi;Former iPhone designer at Apple"
+        description: "Mechanical Engineering:University of Waterloo;Project Manager at Xiaomi;Former iPhone Designer at Apple"
     },
     {
         name: "Victor Qian",
         title: "",
         photo_url: "https://drive.google.com/uc?export=view&id=1SE_IsYdOAfJudfyVb-02akW79hUjb5-m",
         linked_in_url: "https://www.linkedin.com/in/victorqian/",
-        description: "Masters in Mechanical Engineering:University of Waterloo;Co-founder of Waterloop;Former Engineer at Health Canada"
+        description: "Masters in Mechanical Engineering:University of Waterloo;Co-founder at Waterloop;Former Engineer at Health Canada"
     },
 ];

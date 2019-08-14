@@ -1,5 +1,9 @@
 .subscribe-screen, .vision {
-    background-color: var(--col-one)
+    background-color: var(--col-one);
+}
+
+.description b {
+    color: var(--col-one);
 }
 
 .hide {

@@ -3,7 +3,11 @@ function Member(props) {
         props.photo_url = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAA1BMVEX///+nxBvIAAAASElEQVR4nO3BgQAAAADDoPlTX+AIVQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwDcaiAAFXD1ujAAAAAElFTkSuQmCC";
     }
 
-    var description = props.description.replace(/:/g, "\n").replace(/;/g, "\n\u2014\n");
+    var description = props.description.replace(/:/g, "\n\u2014\n").replace(/;/g, "\n\n");
+
+    var memberCardStyle = {
+        width: "22rem"
+    };
 
     var descriptionStyle = {
         height: "11rem"
@@ -11,8 +15,10 @@ function Member(props) {
 
     return (
         <article 
-        class="member center mw5 ba b--black-05 br3">
-            <div class="tc ph3 pv4 flex flex-column items-center">
+        class="member center ba b--black-05 br3"
+        style={memberCardStyle}>
+            <div 
+            class="tc ph3 pv4 flex flex-column items-center">
                 <img src={props.photo_url} class="br-100 h4 w4 dib ba b--black-05 pa2 img"/>
                 <h1 class="f3 mb2 w-100 ttu tracked pb2">{props.name}</h1>
                 <h2 
@@ -34,7 +40,7 @@ function Member(props) {
                         <stop offset="0" ></stop>
                         <stop offset="1" ></stop>
                     </linearGradient>
-                    <path fill="currentColor" d="M48,42c0,3.313-2.687,6-6,6H6c-3.313,0-6-2.687-6-6V6 c0-3.313,2.687-6,6-6h36c3.313,0,6,2.687,6,6V42z"
+                    <path fill="#0077b5" d="M48,42c0,3.313-2.687,6-6,6H6c-3.313,0-6-2.687-6-6V6 c0-3.313,2.687-6,6-6h36c3.313,0,6,2.687,6,6V42z"
                     ></path>
                     <g >
                         <g >

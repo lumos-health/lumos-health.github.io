@@ -5,7 +5,7 @@ function Description(props) {
 
 
     var descDiv = (
-        <div class="flex flex-wrap items-center h-100 pt5 pt3-ns mw5 mw6-ns tc">
+        <div class="description flex flex-wrap items-center h-100 pt5 pt3-ns mw5 mw6-ns tc">
             <div>
                 <p 
                     class="f4 f4-m f3-l fw4 lh-copy">
