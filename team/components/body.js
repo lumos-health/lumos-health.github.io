@@ -1,9 +1,9 @@
 function Body(props) {
     return (
         <header class="body">
-            <div class="flex flex-wrap pt5">
+            <div class="flex flex-wrap pt5 justify-center mb5">
                 {teamMembers.map(member => (
-                        <div class="w-100 w-50-m w-third-l mv5">
+                        <div class="mh4 mt5">
                         <Member
                             name={member.name}
                             photo_url={member.photo_url}
