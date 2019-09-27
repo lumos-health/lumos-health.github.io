@@ -1,3 +1,7 @@
 .member {
     background-color: var(--dark-back-col)
 }
+
+.member-desc {
+    line-height: 80%;
+}

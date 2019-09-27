@@ -37,6 +37,6 @@ var teamMembers = [
         title: "",
         photo_url: "https://drive.google.com/uc?export=view&id=1SE_IsYdOAfJudfyVb-02akW79hUjb5-m",
         linked_in_url: "https://www.linkedin.com/in/victorqian/",
-        description: "Masters in Mechanical Engineering:University of Waterloo;Co-founder at Waterloop;Former Engineer at Health Canada"
+        description: "Masters in Mechanical Engineering:University of Waterloo;Co-founder at Waterloop;Former Rocket Engineer at Waterloo Rocketry"
     },
 ];

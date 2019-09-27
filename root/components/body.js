@@ -3,7 +3,6 @@ function Body(props) {
         <div class="body">
             <Vision />
             <Description />
-            <ImageCol />
             <Subscribe />
         </div>
     );
