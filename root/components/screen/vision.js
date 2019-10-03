@@ -42,7 +42,7 @@ function Vision(props) {
 
     return (
         <div
-            class="vision vh-100 pv3"
+            class="vision vh-100"
             style={divStyle}>
             <div
                 class="w-100 mt-5 center contain container pa3 pa5-ns absolute"
