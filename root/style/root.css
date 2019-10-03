@@ -1,5 +1,34 @@
-.subscribe-screen, .vision {
-    background-color: var(--col-one);
+.subscribe-screen {
+    background-color: ghostwhite;
+}
+
+.vision {
+    background-image: linear-gradient(to bottom, #ffffff, #1babde, #005b99);
+    overflow: auto;
+}
+
+.description{
+    background-image: linear-gradient(to bottom, #005b99,  black);
+    /* background-color: #005b99; */
+    border-top: 1em solid white;
+    filter: opacity(90%);
+    overflow: auto;
+}
+
+.product{
+    background-image: linear-gradient(to bottom, black, #1babde, #ffffff);
+    border-top: 1em solid;
+    border-bottom: 1em solid;
+    /* border-left: 1em solid;
+    border-right: 1em solid; */
+    /* border: 1em solid; */
+    border-color: white;
+}
+
+.logo{
+    display: block;
+    width: 20%;
+    height: auto;
 }
 
 .description b {

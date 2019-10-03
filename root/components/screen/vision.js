@@ -17,37 +17,37 @@ function Vision(props) {
 
     var fontStyle = {
         fontFamily: "\'Montserrat\', sans-serif",
-        fontWeight: "700"
+        fontWeight: "600"
     };
-  
+
     var visionDiv = (
         <div class="w-100 vh-100 flex items-center">
             <div class="mw5 mw6-m mw8-l center flex flex-column tr">
                 <h1
-                    class="f2 f1-l normal white ttu tracked"
+                    class="f1 f1-l normal white center"
                     style={fontStyle}
                 >
                     Lumos Health Inc.
                 </h1>
-                <h2 
-                class="f4 f4-m f3-l fw4 lh-copy white">
+                <h2 class="f4 f4-m f3-l fw4 w-70 pv3 center light-gray tc">
                     To help people live happier, healthier lives through technology and design
                 </h2>
+                <img
+                    class="logo center"
+                    src="favicon.ico/android-chrome-384x384.png"
+                />
             </div>
         </div>
     );
 
     return (
         <div
-            class="vision vh-100 "
+            class="vision vh-100 pv3"
             style={divStyle}>
             <div
-                class="vh-100 w-100 mt-5 center contain container pa3 pa5-ns absolute"
+                class="w-100 mt-5 center contain container pa3 pa5-ns absolute"
                 style={textStyle}>
-
-                <SplitComponents
-                    right={visionDiv}
-                />
+                {visionDiv}
             </div>
             <div
                 style={backgroundStyle}
