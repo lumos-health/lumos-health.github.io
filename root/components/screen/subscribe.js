@@ -1,7 +1,8 @@
 
 function Subscribe(props) {
     var divStyle = {
-        zIndex: "-2"
+        zIndex: "-2",
+        borderTop: "1em solid white",
     };
     var backgroundStyle = {
         background: "url(https://drive.google.com/uc?export=view&id=1ACQbi_qzbqepa0udtdL-z5v22sCYoJmJ) no-repeat",

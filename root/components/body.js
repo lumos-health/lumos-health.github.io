@@ -3,6 +3,8 @@ function Body(props) {
         <div class="body">
             <Vision />
             <Description />
+            <Product />
+            <Benefits />
             <Subscribe />
         </div>
     );
