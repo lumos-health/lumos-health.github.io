@@ -36,7 +36,7 @@ function Description(props) {
             style={descriptionStyle}
             class=" center contain container pa3 ph5-ns flex flex-wrap justify-center">
                 {descDiv}
-            <div class="pb4-m pb5-l flex flex-row justify-center pv3">
+            <div class="pb4-m pb5-l flex-row justify-center pv3">
                 {proto_image_files.map(path =>
                     (<img
                         class="fl w-third ph4"
