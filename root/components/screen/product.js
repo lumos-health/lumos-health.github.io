@@ -23,7 +23,7 @@ function Product(props) {
             Mechanism
             </h2>
         </div>
-        <div class="pb4-m pb5-l flex flex-row justify-center pv2">
+        <div class="pb4-m pb5-l flex-row justify-center pv2">
             <img
                 class="ph3 w-100"
                 style={imageStyle}
